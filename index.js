@@ -1,4 +1,7 @@
 //Oppgave 1
+
+
+//Oppgave 2
 /*
 const T1 = document.getElementById("T1");
 const T2 = document.getElementById("T2");
@@ -20,10 +23,6 @@ function calculateAverage(num1, num2, num3) {
   return (num1 + num2 + num3) / 3; 
 }
 */
-
-//Oppgave 2
-
-
 
 //Oppgave 3
 /*
