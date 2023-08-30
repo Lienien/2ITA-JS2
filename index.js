@@ -51,3 +51,34 @@ function convertToCelsius(temp) {
     return (temp - 32) * (5 / 9);
 }
 */
+
+//Oppgave 4
+/*
+var timer = prompt("Skriv inn hvor mange timer", "Skriv her")
+var pris = 0
+if (timer == 1) {
+    pris = 5
+} else if(timer < 6) {
+    pris = ((timer-1)*4)+5
+} else {
+    pris = ((timer-5)*3)+21
+}
+console.log("Prisen for "+ timer + " timer er "+ pris);
+*/
+
+//Oppgave 5
+
+var userInput = prompt("Skriv inn et tall: ");
+var num = parseInt(userInput);
+
+if (isNaN(num)) {
+    console.log("Vennligst skriv inn et gyldig tall.");
+} else {
+    var sum = 0;
+
+    for (var i = 1; i <= num; i++) {
+        sum += i;
+    }
+
+    console.log("Summen av tallene fra 1 til", num, "er:", sum);
+}
