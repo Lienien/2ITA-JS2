@@ -67,7 +67,7 @@ console.log("Prisen for "+ timer + " timer er "+ pris);
 */
 
 //Oppgave 5
-
+/*
 var userInput = prompt("Skriv inn et tall: ");
 var num = parseInt(userInput);
 
@@ -82,3 +82,4 @@ if (isNaN(num)) {
 
     console.log("Summen av tallene fra 1 til", num, "er:", sum);
 }
+*/
